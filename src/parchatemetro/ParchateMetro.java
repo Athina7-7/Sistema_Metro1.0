@@ -15,7 +15,8 @@ public class ParchateMetro {
      */
     
     public static void main(String[] args) {
-        
+        inicioSesion inicioSesion = new inicioSesion();
+        inicioSesion.setVisible(true);
     }
     
 }

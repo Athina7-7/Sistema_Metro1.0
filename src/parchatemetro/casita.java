@@ -40,6 +40,15 @@ public class casita extends javax.swing.JFrame {
                 dispose();
             }
         });
+        pestañaFlujo.addMouseListener(new MouseAdapter() {
+
+            public void mouseClicked(MouseEvent e) {
+                // Hacer visible la otra pestaña
+                flujo otraPestana = new flujo();
+                otraPestana.setVisible(true);
+                dispose();
+            }
+        });
         horarios.addMouseListener(new MouseAdapter() {
 
             public void mouseClicked(MouseEvent e) {
@@ -69,6 +78,7 @@ public class casita extends javax.swing.JFrame {
         pestañaMapa = new javax.swing.JLabel();
         horarios = new javax.swing.JLabel();
         pestañaRecomendaciones = new javax.swing.JLabel();
+        pestañaFlujo = new javax.swing.JLabel();
         fondo = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -95,8 +105,11 @@ public class casita extends javax.swing.JFrame {
         pestañaRecomendaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/BotonRecomendaciones.png"))); // NOI18N
         fondoPanel.add(pestañaRecomendaciones, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, 120, 100));
 
-        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/casitaInicio.png"))); // NOI18N
-        fondoPanel.add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 540));
+        pestañaFlujo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/BotonFlujoEstaciones.png"))); // NOI18N
+        fondoPanel.add(pestañaFlujo, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 130, 110));
+
+        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/casaInicio.png"))); // NOI18N
+        fondoPanel.add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 520));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -152,6 +165,7 @@ public class casita extends javax.swing.JFrame {
     private javax.swing.JPanel fondoPanel;
     private javax.swing.JLabel horarios;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel pestañaFlujo;
     private javax.swing.JLabel pestañaMapa;
     private javax.swing.JLabel pestañaRecomendaciones;
     // End of variables declaration//GEN-END:variables
