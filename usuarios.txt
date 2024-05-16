@@ -1,5 +1,5 @@
-Athina,Cédula de ciudadanía ,1037673001,101,Cédula de ciudadanía 
-juan,Cédula de ciudadanía ,10376789100,1036,Cédula de ciudadanía
-Camila,Tarjeta de identidad,10357896,103,Tarjeta de identidad
-Daniela,Cédula de ciudadanía ,1023629332,102,Cédula de ciudadanía 
-Sara,Cédula de ciudadanía ,105478963,1033,Cédula de ciudadanía 
+AThina,Cédula de ciudadanía ,77,aaa,Usuario administrador
+444,Cédula de ciudadanía ,55,33,Usuario común
+Renata,Cédula de ciudadanía ,10354,777,Usuario administrador
+Gianluca,Cédula de ciudadanía ,789,123,Usuario administrador
+Athinaa,Cédula de ciudadanía ,789999,600,Usuario administrador
