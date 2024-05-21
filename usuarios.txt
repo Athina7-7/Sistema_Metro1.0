@@ -1,0 +1,5 @@
+AThina,Cédula de ciudadanía ,77,aaa,Usuario administrador
+444,Cédula de ciudadanía ,55,33,Usuario común
+Renata,Cédula de ciudadanía ,10354,777,Usuario administrador
+Gianluca,Cédula de ciudadanía ,789,123,Usuario administrador
+Athinaa,Cédula de ciudadanía ,789999,600,Usuario administrador

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="fondoPanel" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="fondoPanel" min="-2" pref="523" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="fondoPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="370" width="330" height="150"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="datos">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="     - La palabra Metro es la abreviatura universal de&#xa;       tren metropolitano&#xa;&#xa;     -  Es el primer y &#xfa;nico sistema de trenes&#xa;        metropolitanos de Colombia&#xa;&#xa;     -  Se supon&#xed;a que el metro deb&#xed;a estar listo en &#xa;         mayo de 1990, pero el consorcio hispano-alem&#xe1;n&#xa;         se retras&#xf3;, los costos aumentaron y la obra&#xa;        tuvo que ser frenada. En 1989 fue aprobada &#xa;        la Ley de Metros, que permiti&#xf3; a las regiones &#xa;        el cobro de una sobre  tasa en la gasolina y el &#xa;        aumento de algunos impuestos para financiar&#xa;        este tipo de proyectos.&#xa;&#xa;     -  La primera vez que un tren rod&#xf3; por las v&#xed;as del &#xa;         metro fue el 8 de abril de 1994, en una prueba&#xa;         t&#xe9;cnica de la L&#xed;nea A entre los talleres de Bello y &#xa;         la estaci&#xf3;n Caribe. Fue un recorrido de 11 &#xa;         kil&#xf3;metros.&#xa;&#xa;&#xa;     -  El Metro de Medell&#xed;n no recibe subsidio del &#xa;        gobierno local para su operaci&#xf3;n, es decir, es&#xa;        autosostenible.&#xa;&#xa;     -  Mientras que los trenes del Metro de Medell&#xed;n&#xa;        pueden viajar a una velocidad m&#xe1;xima de &#xa;        80 km/h, las cabinas de los cables a&#xe9;reos se&#xa;       desplazan a 18 km/h.&#xa;&#xa;     - Solo en la l&#xed;nea A, las 60 unidades de tren (cada&#xa;        una compuesta por tres coches) recorren en &#xa;        promedio 28.300 km en un d&#xed;a t&#xed;pico. Es como&#xa;       ir y volver en un mismo d&#xed;a a Afganist&#xe1;n, pa&#xed;s &#xa;       que est&#xe1; a 14.146 km de Colombia.&#xa;&#xa;     - El trayecto m&#xe1;s largo entre estaciones, tambi&#xe9;n&#xa;       conocido como interestaci&#xf3;n, est&#xe1; entre Poblado&#xa;       y Aguacatala y suma 2.1 kil&#xf3;metros de recorrido. &#xa;       Son aproximadamente 3 minutos de viaje. &#xa;&#xa;     - El Metro tiene 2 tipos de trenes, los MAN &#xa;       (primera generaci&#xf3;n o &#x2018;cuadrados&#x2019;), de los cuales&#xa;       hay 42 trenes que se est&#xe1;n modernizando, cada &#xa;       uno de 3 coches, y representan el 52,5% de la flota. &#xa;       Los segundos son trenes CAF (segunda &#xa;       generaci&#xf3;n) que comenzaron a operar desde 2011.&#xa;&#xa;     - Tanto los CAF como los MAN son trenes de tres&#xa;        vagones. En la L&#xed;nea A por lo general se unen o&#xa;        acoplan dos de ellos para un total de seis&#xa;       vagones, mientras que en la l&#xed;nea B no es posible&#xa;       realizar este acople.&#xa;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="iconoCasita">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagen/casa.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="10" width="30" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="horarios">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagen/Horarios.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="20" width="60" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fondo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagen/fondoDatosCuriosos.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="330" height="540"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
